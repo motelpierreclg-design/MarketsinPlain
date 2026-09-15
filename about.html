@@ -104,9 +104,11 @@
       <a href="https://instagram.com/marketsinplain" class="ig-follow">Follow @marketsinplain on Instagram →</a>
     </div>
     <div>
-      <form class="email-form">
-        <input type="email" placeholder="your@email.com" required>
+            <form class="email-form" action="https://assets.mailerlite.com/jsonp/2636932/forms/198685820056503591/subscribe" method="post" target="_blank">
+        <input type="email" name="fields[email]" placeholder="your@email.com" autocomplete="email" required>
         <button type="submit">Subscribe</button>
+        <input type="hidden" name="ml-submit" value="1">
+        <input type="hidden" name="anticsrf" value="true">
       </form>
     </div>
   </div>
@@ -114,7 +116,7 @@
 
 <footer>
   <div class="footer-inner">
-    <span>Markets in Plain English</span>
+    <span>Markets in Plain</span>
     <div class="footer-links">
       <a href="articles.html">Articles</a>
       <a href="about.html">About</a>

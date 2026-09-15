@@ -17,16 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Mockup email forms (subscribe blocks)
-  document.querySelectorAll('form.email-form').forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var btn = form.querySelector('button');
-      var input = form.querySelector('input');
-      if (btn) btn.textContent = 'Subscribed';
-      if (input) input.disabled = true;
-    });
-  });
+  // Newsletter forms now submit for real to MailerLite — no interception needed.
 
   // Mockup contact form
   var contactForm = document.querySelector('.contact-form');
