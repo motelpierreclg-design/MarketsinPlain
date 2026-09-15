@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Markets in Plain English</title>
+<meta name="description" content="Get in touch with Markets in Plain English.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="20" fill="#0E1626"/>
+        <rect x="10" y="22" width="4" height="9" fill="#F4F1E8"/>
+        <rect x="16" y="17" width="4" height="14" fill="#F4F1E8"/>
+        <rect x="22" y="12" width="4" height="19" fill="#3D6FF2"/>
+      </svg>
+      <span class="logo-text">Markets <span>in</span> Plain English</span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="wrap-wide">
+    <span class="eyebrow">CONTACT</span>
+    <h1>Have a story idea, a question, or spotted an error?</h1>
+    <p>Send a message directly, or reach out on Instagram — either works.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="contact-grid">
+    <form class="contact-form">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="your@email.com" required>
+      </div>
+      <div class="field">
+        <label for="topic">What's this about?</label>
+        <input type="text" id="topic" placeholder="Story idea, correction, collaboration...">
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Tell me what's on your mind" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:fit-content;">Send message</button>
+      <p class="form-note">This form is a visual mockup — connecting it to a real inbox needs a backend service like Formspree or a serverless function.</p>
+    </form>
+
+    <div class="contact-info">
+      <h3>Other ways to reach out</h3>
+      <p>For quicker questions or to just say hi, Instagram tends to get the fastest reply.</p>
+      <ul class="contact-links">
+        <li>
+          <span class="label">INSTAGRAM</span>
+          <a href="https://instagram.com/marketsinplain">@marketsinplain</a>
+        </li>
+        <li>
+          <span class="label">EMAIL</span>
+          <a href="mailto:hello@marketsinplain.com">hello@marketsinplain.com</a>
+        </li>
+        <li>
+          <span class="label">LOCATION</span>
+          <span>Montreal, Canada</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap-wide" style="max-width:820px;">
+    <div class="section-head">
+      <h2>Frequently asked</h2>
+    </div>
+
+    <div class="faq-item">
+      <h4>Can I suggest a topic?</h4>
+      <p>Yes — that's one of the best reasons to reach out. If there's a story in the news you'd like explained in plain English, send it through the form or on Instagram.</p>
+    </div>
+    <div class="faq-item">
+      <h4>How often do new articles come out?</h4>
+      <p>New pieces are published weekly, alongside daily-ish posts on the Instagram account.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Do you take guest contributions?</h4>
+      <p>Not currently, but that may change as the project grows. Reach out if you have something in mind.</p>
+    </div>
+    <div class="faq-item">
+      <h4>I spotted a factual error — what now?</h4>
+      <p>Please flag it through the contact form with a link or source if you have one. Corrections are always welcome and taken seriously.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <span>Markets in Plain English</span>
+    <div class="footer-links">
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <span>© 2026 · Montreal</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
