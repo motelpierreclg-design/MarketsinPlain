@@ -17,8 +17,20 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Newsletter forms: submit silently to MailerLite via a hidden iframe,
-  // then show a friendly confirmation on the page itself (no JSON tab, no redirect).
+  // Mockup email forms (subscribe blocks) — replace with your real MailerLite
+  // embed code (form.ml-real-form) once you paste it back into the pages.
+  document.querySelectorAll('form.email-form').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var btn = form.querySelector('button');
+      var input = form.querySelector('input');
+      if (btn) btn.textContent = 'Subscribed';
+      if (input) input.disabled = true;
+    });
+  });
+
+  // Real MailerLite forms: submit silently via a hidden iframe, then show
+  // a friendly confirmation on the page itself (no JSON tab, no redirect).
   document.querySelectorAll('form.ml-real-form').forEach(function (form) {
     form.addEventListener('submit', function () {
       var btn = form.querySelector('button[type="submit"]');
