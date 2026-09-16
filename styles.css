@@ -130,7 +130,7 @@ nav a.active{color:var(--cream);border-bottom-color:var(--blue);}
   position:absolute;left:14px;top:50%;transform:translateY(-50%);
   width:16px;height:16px;color:var(--cream-dim);pointer-events:none;
 }
-.empty-state{padding:40px 0;color:var(--cream-dim);font-size:0.95rem;display:none;}
+.empty-state{padding:44px 0;color:var(--cream-dim);font-size:0.95rem;display:none;}
 .empty-state.visible{display:block;}
 .result-count{color:var(--cream-dim);font-size:0.85rem;margin-bottom:20px;}
 
