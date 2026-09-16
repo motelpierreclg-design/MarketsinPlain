@@ -120,10 +120,13 @@
       <p>One email a week, never more. No spam, unsubscribe in one click.</p>
     </div>
     <div>
-      <form class="email-form">
-        <input type="email" placeholder="your@email.com" required>
+      <form class="email-form ml-real-form" action="https://assets.mailerlite.com/jsonp/2636932/forms/198685820056503591/subscribe" method="post" target="ml-hidden-iframe">
+        <input type="email" name="fields[email]" placeholder="your@email.com" required>
+        <input type="hidden" name="ml-submit" value="1">
+        <input type="hidden" name="anticsrf" value="true">
         <button type="submit">Subscribe</button>
       </form>
+      <iframe name="ml-hidden-iframe" style="display:none;" title="mailerlite"></iframe>
     </div>
   </div>
 </section>
