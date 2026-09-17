@@ -220,6 +220,17 @@ form.email-form button{
   border-left:2px solid var(--blue);margin:32px 0;padding:4px 0 4px 24px;
   font-family:'Newsreader',serif;font-style:italic;font-size:1.15rem;color:var(--cream);
 }
+.quote-source{
+  font-size:0.85rem;color:var(--cream-dim);margin:-20px 0 32px;padding-left:26px;
+}
+.sources{margin-top:48px;padding-top:28px;border-top:1px solid var(--rule);}
+.sources-label{
+  font-size:0.78rem;color:var(--coral);text-transform:uppercase;
+  letter-spacing:0.05em;margin-bottom:14px;display:block;
+}
+.sources ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;}
+.sources li{font-size:0.88rem;color:var(--cream-dim);}
+.sources em{font-style:italic;color:var(--cream);}
 .prose ul{color:var(--cream-dim);font-size:1.05rem;padding-left:22px;margin:0 0 22px;}
 .prose li{margin-bottom:8px;}
 .pull-stat{
