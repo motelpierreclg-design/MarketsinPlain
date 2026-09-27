@@ -26,6 +26,24 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://marketsinplain.com/article-trump-warsh.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketsinplain.com/article-boj.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketsinplain.com/article-canada-eu.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://marketsinplain.com/article-fed-hike.html</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
