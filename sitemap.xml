@@ -26,6 +26,12 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://marketsinplain.com/article-central-banks.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://marketsinplain.com/article-trump-warsh.html</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
